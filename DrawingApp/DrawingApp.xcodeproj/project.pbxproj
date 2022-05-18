@@ -18,6 +18,8 @@
 		F59FF7DA28337BB1008755C9 /* DrawingAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F59FF7D928337BB1008755C9 /* DrawingAppUITestsLaunchTests.swift */; };
 		F5D2F2A62834A3B700B0867F /* Square.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5D2F2A52834A3B700B0867F /* Square.swift */; };
 		F5D2F2A82834D51E00B0867F /* Size.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5D2F2A72834D51E00B0867F /* Size.swift */; };
+		F5D2F2AA283542C900B0867F /* Position.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5D2F2A9283542C900B0867F /* Position.swift */; };
+		F5D2F2AE2835447100B0867F /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5D2F2AD2835447100B0867F /* Color.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,8 @@
 		F59FF7D928337BB1008755C9 /* DrawingAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawingAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		F5D2F2A52834A3B700B0867F /* Square.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Square.swift; sourceTree = "<group>"; };
 		F5D2F2A72834D51E00B0867F /* Size.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Size.swift; sourceTree = "<group>"; };
+		F5D2F2A9283542C900B0867F /* Position.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Position.swift; sourceTree = "<group>"; };
+		F5D2F2AD2835447100B0867F /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +116,8 @@
 				F59FF7C428337BB0008755C9 /* Info.plist */,
 				F5D2F2A52834A3B700B0867F /* Square.swift */,
 				F5D2F2A72834D51E00B0867F /* Size.swift */,
+				F5D2F2A9283542C900B0867F /* Position.swift */,
+				F5D2F2AD2835447100B0867F /* Color.swift */,
 			);
 			path = DrawingApp;
 			sourceTree = "<group>";
@@ -266,6 +272,8 @@
 			files = (
 				F5D2F2A62834A3B700B0867F /* Square.swift in Sources */,
 				F5D2F2A82834D51E00B0867F /* Size.swift in Sources */,
+				F5D2F2AE2835447100B0867F /* Color.swift in Sources */,
+				F5D2F2AA283542C900B0867F /* Position.swift in Sources */,
 				F59FF7BB28337BAE008755C9 /* ViewController.swift in Sources */,
 				F59FF7B728337BAE008755C9 /* AppDelegate.swift in Sources */,
 				F59FF7B928337BAE008755C9 /* SceneDelegate.swift in Sources */,
