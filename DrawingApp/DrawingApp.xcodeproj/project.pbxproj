@@ -109,6 +109,7 @@
 		F59FF7B528337BAE008755C9 /* DrawingApp */ = {
 			isa = PBXGroup;
 			children = (
+				F5D1943A283651F900816E2F /* Model */,
 				F59FF7B628337BAE008755C9 /* AppDelegate.swift */,
 				F59FF7B828337BAE008755C9 /* SceneDelegate.swift */,
 				F59FF7BA28337BAE008755C9 /* ViewController.swift */,
@@ -116,11 +117,6 @@
 				F59FF7BF28337BB0008755C9 /* Assets.xcassets */,
 				F59FF7C128337BB0008755C9 /* LaunchScreen.storyboard */,
 				F59FF7C428337BB0008755C9 /* Info.plist */,
-				F5D2F2A52834A3B700B0867F /* Square.swift */,
-				F5D2F2A72834D51E00B0867F /* Size.swift */,
-				F5D2F2A9283542C900B0867F /* Position.swift */,
-				F5D2F2AD2835447100B0867F /* Color.swift */,
-				F5D2F2AF28354D7B00B0867F /* SquareFactory.swift */,
 			);
 			path = DrawingApp;
 			sourceTree = "<group>";
@@ -140,6 +136,18 @@
 				F59FF7D928337BB1008755C9 /* DrawingAppUITestsLaunchTests.swift */,
 			);
 			path = DrawingAppUITests;
+			sourceTree = "<group>";
+		};
+		F5D1943A283651F900816E2F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F5D2F2A52834A3B700B0867F /* Square.swift */,
+				F5D2F2A72834D51E00B0867F /* Size.swift */,
+				F5D2F2A9283542C900B0867F /* Position.swift */,
+				F5D2F2AD2835447100B0867F /* Color.swift */,
+				F5D2F2AF28354D7B00B0867F /* SquareFactory.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
