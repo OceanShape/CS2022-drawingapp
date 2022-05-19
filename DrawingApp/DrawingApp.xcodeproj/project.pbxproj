@@ -16,6 +16,7 @@
 		F59FF7CE28337BB1008755C9 /* DrawingAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F59FF7CD28337BB1008755C9 /* DrawingAppTests.swift */; };
 		F59FF7D828337BB1008755C9 /* DrawingAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F59FF7D728337BB1008755C9 /* DrawingAppUITests.swift */; };
 		F59FF7DA28337BB1008755C9 /* DrawingAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F59FF7D928337BB1008755C9 /* DrawingAppUITestsLaunchTests.swift */; };
+		F5D1943C283654FD00816E2F /* Plane.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5D1943B283654FD00816E2F /* Plane.swift */; };
 		F5D2F2A62834A3B700B0867F /* Square.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5D2F2A52834A3B700B0867F /* Square.swift */; };
 		F5D2F2A82834D51E00B0867F /* Size.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5D2F2A72834D51E00B0867F /* Size.swift */; };
 		F5D2F2AA283542C900B0867F /* Position.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5D2F2A9283542C900B0867F /* Position.swift */; };
@@ -54,6 +55,7 @@
 		F59FF7D328337BB1008755C9 /* DrawingAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DrawingAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F59FF7D728337BB1008755C9 /* DrawingAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawingAppUITests.swift; sourceTree = "<group>"; };
 		F59FF7D928337BB1008755C9 /* DrawingAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawingAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F5D1943B283654FD00816E2F /* Plane.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Plane.swift; sourceTree = "<group>"; };
 		F5D2F2A52834A3B700B0867F /* Square.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Square.swift; sourceTree = "<group>"; };
 		F5D2F2A72834D51E00B0867F /* Size.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Size.swift; sourceTree = "<group>"; };
 		F5D2F2A9283542C900B0867F /* Position.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Position.swift; sourceTree = "<group>"; };
@@ -146,6 +148,7 @@
 				F5D2F2A9283542C900B0867F /* Position.swift */,
 				F5D2F2AD2835447100B0867F /* Color.swift */,
 				F5D2F2AF28354D7B00B0867F /* SquareFactory.swift */,
+				F5D1943B283654FD00816E2F /* Plane.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -282,6 +285,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F5D2F2A62834A3B700B0867F /* Square.swift in Sources */,
+				F5D1943C283654FD00816E2F /* Plane.swift in Sources */,
 				F5D2F2A82834D51E00B0867F /* Size.swift in Sources */,
 				F5D2F2AE2835447100B0867F /* Color.swift in Sources */,
 				F5D2F2AA283542C900B0867F /* Position.swift in Sources */,

@@ -26,4 +26,8 @@ class Square: CustomStringConvertible {
             self.Alpha = Alpha
         }
     }
+    
+    func isIncluded(position: Position) -> Bool {
+        return (self.position.x < position.x) && (position.x < self.position.x + self.size.width) && (self.position.y < position.y) && (position.y < self.position.y + self.size.height)
+    }
 }
