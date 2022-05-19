@@ -20,6 +20,7 @@
 		F5D2F2A82834D51E00B0867F /* Size.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5D2F2A72834D51E00B0867F /* Size.swift */; };
 		F5D2F2AA283542C900B0867F /* Position.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5D2F2A9283542C900B0867F /* Position.swift */; };
 		F5D2F2AE2835447100B0867F /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5D2F2AD2835447100B0867F /* Color.swift */; };
+		F5D2F2B028354D7B00B0867F /* SquareFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5D2F2AF28354D7B00B0867F /* SquareFactory.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,7 @@
 		F5D2F2A72834D51E00B0867F /* Size.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Size.swift; sourceTree = "<group>"; };
 		F5D2F2A9283542C900B0867F /* Position.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Position.swift; sourceTree = "<group>"; };
 		F5D2F2AD2835447100B0867F /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		F5D2F2AF28354D7B00B0867F /* SquareFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SquareFactory.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +120,7 @@
 				F5D2F2A72834D51E00B0867F /* Size.swift */,
 				F5D2F2A9283542C900B0867F /* Position.swift */,
 				F5D2F2AD2835447100B0867F /* Color.swift */,
+				F5D2F2AF28354D7B00B0867F /* SquareFactory.swift */,
 			);
 			path = DrawingApp;
 			sourceTree = "<group>";
@@ -277,6 +280,7 @@
 				F59FF7BB28337BAE008755C9 /* ViewController.swift in Sources */,
 				F59FF7B728337BAE008755C9 /* AppDelegate.swift in Sources */,
 				F59FF7B928337BAE008755C9 /* SceneDelegate.swift in Sources */,
+				F5D2F2B028354D7B00B0867F /* SquareFactory.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
